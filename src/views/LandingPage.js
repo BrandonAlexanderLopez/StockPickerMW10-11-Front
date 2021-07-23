@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Team_Component from '../components/Team_components';
 function LandingPage() 
 {
   return (
         <div>
-            <h1>Hello world</h1>
+            <Team_Component/>;
         </div>
     )
 }
